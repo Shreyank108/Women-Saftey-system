@@ -1,8 +1,8 @@
 import pywhatkit
 import gmap
 import pyautogui as k 
-pywhatkit.sendwhatmsg_instantly("+918964864762","hii i am good") 
+pywhatkit.sendwhatmsg_instantly("+","hii i am good") 
 p=pywhatkit.search("my current location")
 k.press("enter")
-pywhatkit.sendwhatmsg_instantly("+918964864762",p) 
+pywhatkit.sendwhatmsg_instantly("+",p) 
 gmap.GoogleMap()
