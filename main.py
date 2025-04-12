@@ -40,13 +40,13 @@ def run():
     command =command_taker() 
     p=f"i am in trouble ! i need help plz call police ! dial {100} "
     if 'help' or 'bachaao' or 'koi hai' or 'Aaaaaaaa' in command : 
-        pywhatkit.sendwhatmsg_instantly("+918964864762",f"{p}") 
+        pywhatkit.sendwhatmsg_instantly("+9",f"{p}") 
         pyautogui.press("enter") 
         cam=VideoCapture(0)
         result,image=cam.read()
         if result:
             imwrite("image.png",image)
-            pywhatkit.sendwhats_image("+918964864762",'image.png')
+            pywhatkit.sendwhats_image("+9",'image.png')
         time.sleep(5)   
         pywhatkit.search("my current location ") 
         random_time=random.randint(4, 6)
