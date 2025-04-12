@@ -41,7 +41,7 @@ driver.get('https://web.whatsapp.com')
 wait = WebDriverWait(driver, 30).until(EC.title_contains('WhatsApp'))
 
 # Replace 'contact_name' with the name of the contact you want to send the audio to
-contact_name = '+918964864762'
+contact_name = '+9'
 
 # Find and click on the contact
 contact_xpath = f'//span[@title="{contact_name}"]'
